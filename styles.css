@@ -1,0 +1,125 @@
+* 
+
+.form-button{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.form-button button{
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: #feb700;
+
+  border: solid white 1px;
+  border-radius: 30px;
+
+  padding: 10px 40px;
+  cursor: pointer; 
+}
+*{
+    margin: 0;    
+    box-sizing: border-box;
+  }
+  .fon{
+    z-index: -2;
+       
+  }
+  .fon img{   
+    width: 100%;
+    object-fit: cover;  
+    height: 100%;
+    display: block;
+  }    
+  .head-f {
+    width: 100%;
+   
+    height: 90px;
+    background-color: #f8bfc7;
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 35px 1px 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .head-f div {
+    margin: 0 15px;
+    display:flex; 
+  }
+  .page {
+    max-width: 100%;
+    
+  }
+  
+.footer {
+  color: aliceblue;
+}
+.menu {
+  position: absolute;
+  width: 300px;
+
+  top: 160px;
+  left: 90px;
+/*  background-color:#f8bfc7;    */
+  z-index: 2;
+/*  border-radius: 20px;
+  border: solid 1px white;   */
+}
+.fon1 {
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+  background-color: #2f6fd2;
+  
+}
+.form-row {
+  background-color:#f8bfc7;
+  border-radius: 20px;
+  border: solid 1px white;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #fcfefef4;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-row input[type='text'] {
+    width: 100%;
+    background-color: #f8bfc7;
+    border-style: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 17px 0;
+}
+.form-row label {
+  margin-bottom: 37px;
+}
+.form-row input[type='email'] {
+  width: 100%;
+  background-color: #f8bfc7;
+  border-style: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+
+.form-row:hover {
+  background-color: #2f6fd2;
+}
+
+.form-row:active {
+color: #f1eeee;
+}
+.fon1 div {
+  color: #feb700;
+  font-size: 50px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+input:focus {
+  outline: none;
+}
